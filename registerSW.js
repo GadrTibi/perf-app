@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/perf-app/sw.js', { scope: '/perf-app/' })})}
